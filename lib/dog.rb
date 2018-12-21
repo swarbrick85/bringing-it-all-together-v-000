@@ -88,4 +88,6 @@ class Dog
     y = Dog.new(name: x[1], breed: x[2], id: x[0]) 
     y
   end 
+  
+  
 end 

@@ -50,4 +50,15 @@ class Dog
     x.save 
     x
   end 
+  
+  def self.find_by_name(id)
+    sql = <<-SQL
+      SELECT * FROM dogs WHERE id = ?
+    SQL
+
+    x = DB[:conn].execute(sql, id).flatten 
+    
+    y = Student.new(name: x[1], breed: x[2], id: id) 
+    y
+  end
 end 

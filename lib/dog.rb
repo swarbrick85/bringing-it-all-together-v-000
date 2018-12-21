@@ -70,6 +70,6 @@ class Dog
     else
       song = self.create(name: name, breed: breed)
     end
-    song
+    dog
   end 
 end 

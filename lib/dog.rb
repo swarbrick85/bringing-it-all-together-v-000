@@ -46,7 +46,7 @@ class Dog
    end 
    
    def self.create(name:, breed:) 
-    x = Student.new(name, grade)
+    x = Dog.new(name, grade)
     x.save 
     x
   end 

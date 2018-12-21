@@ -77,4 +77,8 @@ class Dog
     y = Dog.new(name: row[1], breed: row[2], id: row[0]) 
     y 
   end
+  
+  def self.find_by_name 
+    
+  end 
 end 

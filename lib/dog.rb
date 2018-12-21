@@ -58,7 +58,7 @@ class Dog
 
     x = DB[:conn].execute(sql, id).flatten 
     
-    y = Student.new(name: x[1], breed: x[2], id: id) 
+    y = Dog.new(name: x[1], breed: x[2], id: id) 
     y
   end
 end 

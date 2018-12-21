@@ -61,4 +61,8 @@ class Dog
     y = Dog.new(name: x[1], breed: x[2], id: id) 
     y
   end
+  
+  def find_or_create_by 
+    
+  end 
 end 
